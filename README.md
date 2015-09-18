@@ -72,7 +72,7 @@ The [video](https://www.youtube.com/watch?v=DYrpZRaX8RI&index=37&list=PLZFU-W6LL
 
 3. In that @media query, specify any changes that are needed to make the page look like the image below on a phone (your fonts will be different). Changes will affect margins and widths of several selectors. Also, because the chart at the top of the page becomes unreadable at a small size, you must hide it. **Hint:** Use the *display* property.
 
-![Phone preview - after responsive styles added](assets/phone.gif)
+![Phone preview - after responsive styles added](video/phone.gif)
 
 **Note:** In the CSS file, you must not *change* anything (except the two font-family declarations you already changed). You will *add* the @media query, and all adaptations will be handled there.
 
