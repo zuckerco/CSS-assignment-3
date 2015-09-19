@@ -70,13 +70,15 @@ The [video](https://www.youtube.com/watch?v=DYrpZRaX8RI&index=37&list=PLZFU-W6LL
 
 2. Write an @media query with one *breakpoint* (see Robbins chapter 18). The breakpoint will indicate the width at which the page changes from two columns to one.
 
-3. In that @media query, specify any changes that are needed to make the page look like the image below on a phone (your fonts will be different). Changes will affect margins and widths of several selectors. Also, because the chart at the top of the page becomes unreadable at a small size, you must hide it. **Hint:** Use the *display* property.
+3. In that @media query, specify any changes that are needed to make the page look like the animated image below on a phone (your fonts will be different). Changes must be made to margins and widths of several selectors. Also, because the chart at the top of the page becomes unreadable at a small size, you must hide it. **Hint:** Use the *display* property to hide something.
 
-![Phone preview - after responsive styles added](video/phone.gif)
+![Animated GIF - phone preview - after responsive styles were added](video/phone.gif)
 
 (Yes, I made a video of my phone and then converted it to an animated GIF.)
 
 **Note:** In the CSS file, you must not *change* anything (except the two font-family declarations you already changed). You will *add* the @media query, and all adaptations will be handled there.
+
+Test your changes by making your browser window very narrow.
 
 ## Commit and sync
 
