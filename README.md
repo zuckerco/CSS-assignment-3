@@ -74,6 +74,8 @@ The [video](https://www.youtube.com/watch?v=DYrpZRaX8RI&index=37&list=PLZFU-W6LL
 
 ![Phone preview - after responsive styles added](video/phone.gif)
 
+(Yes, I made a video of my phone and then converted it to an animated GIF.)
+
 **Note:** In the CSS file, you must not *change* anything (except the two font-family declarations you already changed). You will *add* the @media query, and all adaptations will be handled there.
 
 ## Commit and sync
