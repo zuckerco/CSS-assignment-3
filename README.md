@@ -44,6 +44,8 @@ Before you begin, be sure to read Robbins chapter 12 and watch the [Google Fonts
 
 You need to understand all the requirements of a **font stack** to do this assignment correctly.
 
+**VERY IMPORTANT REQUIREMENT:** DO NOT use any Google font that is used in the [Google Fonts video](https://www.youtube.com/watch?v=C7YL9biogCA&list=PLZFU-W6LLeecJuSQh20QUU_gCmS30sLTB&index=35). Four Google fonts are used in the video. There will be a high penalty for using even one of those four fonts.
+
 1. Following the procedures shown in the video, choose two Google font families: one is for all the headings on the page, and the other is for everything else. Make sure they look good together. Make sure the one used in paragraphs has good *readability* at that size.
 
 2. Add the appropriate element to the HTML HEAD element for your Google fonts.
@@ -80,9 +82,13 @@ The [video](https://www.youtube.com/watch?v=DYrpZRaX8RI&index=37&list=PLZFU-W6LL
 
 Test your changes by making your browser window very narrow.
 
+In Chrome, you can test your page for different device sizes using the Developer Tools (View menu > Developer > Developer Tools).
+
+![Chrome Developer Tools - mobile testing](images/dev-tools-mobile.png)
+
 ## Commit and sync
 
-When everything is finished, save both files, commit and sync (or publish) to GitHub. Be sure to stay in your *gh-pages* branch for all steps.
+When everything is finished, save both files, commit and sync (or publish) to GitHub. Be sure to stay in your *gh-pages* branch for all steps. DO NOT forget to Publish/Sync your repo!
 
 ## Check the rubric and submit in Canvas
 
