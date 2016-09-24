@@ -84,7 +84,7 @@ Test your changes by making your browser window very narrow.
 
 In Chrome, you can test your page for different device sizes using the Developer Tools (View menu > Developer > Developer Tools).
 
-![Chrome Developer Tools - mobile testing](images/dev-tools-mobile.png)
+![Chrome Developer Tools - mobile testing](images/new-dev-tools-mobile.png)
 
 ## Commit and sync
 
