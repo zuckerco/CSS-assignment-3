@@ -36,10 +36,10 @@ All of the above. Plus:
 
 3. When I gradually resize my browser to a narrow width:
 
-* The two columns become one column BEFORE the two columns look too skinny and weird.
-* The image disappears.
-* There are no margins, and padding is not excessively large.
-* The @media query does not contain unnecessary selectors, rules or properties.
+    * The two columns become one column BEFORE the two columns look too skinny and weird.
+    * The image disappears.
+    * There are no margins, and padding is not excessively large.
+    * The @media query does not contain unnecessary selectors, rules or properties.
 
 4. HTML validates: https://html5.validator.nu/
 
