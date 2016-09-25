@@ -40,11 +40,11 @@ Remember to work only inside your *gh-pages* branch. You will edit the existing 
 
 ### Google fonts
 
-Before you begin, be sure to read Robbins chapter 12 and watch the [Google Fonts video](https://www.youtube.com/watch?v=C7YL9biogCA&list=PLZFU-W6LLeecJuSQh20QUU_gCmS30sLTB&index=35). Also read all the text on the HTML page that's in this assignment.
+Before you begin, be sure to read Robbins chapter 12 and watch the [Google Fonts video](https://www.youtube.com/watch?v=1S3ga5Or5ec&index=35&list=PLZFU-W6LLeecJuSQh20QUU_gCmS30sLTB). Also read all the text on the HTML page that's in this assignment.
 
 You need to understand all the requirements of a **font stack** to do this assignment correctly.
 
-**VERY IMPORTANT REQUIREMENT:** DO NOT use any Google font that is used in the [Google Fonts video](https://www.youtube.com/watch?v=C7YL9biogCA&list=PLZFU-W6LLeecJuSQh20QUU_gCmS30sLTB&index=35). Four Google fonts are used in the video. There will be a high penalty for using even one of those four fonts.
+**VERY IMPORTANT REQUIREMENT:** DO NOT use any Google font that is used in the [Google Fonts video](https://www.youtube.com/watch?v=1S3ga5Or5ec&index=35&list=PLZFU-W6LLeecJuSQh20QUU_gCmS30sLTB). Four Google fonts are used in the video. There will be a high penalty for using even one of those four fonts.
 
 1. Following the procedures shown in the video, choose two Google font families: one is for all the headings on the page, and the other is for everything else. Make sure they look good together. Make sure the one used in paragraphs has good *readability* at that size.
 
@@ -52,9 +52,9 @@ You need to understand all the requirements of a **font stack** to do this assig
 
 3. **Edit the two existing font-family declarations** in the CSS file to include your Google fonts.
 
-4. Add *at least one* other common font family to each of those declarations, and make sure it is a suitable companion to the Google font you have named. Note that **you might need to add two,** because a common font on Windows is not always a common font on Mac, and vice versa.
+4. Add *at least one* other common font family to each of those declarations, and make sure it is a suitable companion to the Google font you have named. Note that **you might need to add two,** because a common font on Windows is not always a common font on Mac, and vice versa. You will have to look up *common font families* -- don't just guess.
 
-5. Add the correct generic at the end of each declaration. Note: One must be serif, and one must be sans-serif. Make sure you are choosing the best one to match the fonts preceding it in the declaration.
+5. Add the correct *generic* at the end of each declaration. Note: One must be serif, and one must be sans-serif. Make sure you are choosing the best one to match the fonts preceding it in the declaration. Generics are covered in your book and in the chapter 12, part 1 video.
 
 **Test your page** for all the font options by deleting, saving and reloading -- as many times as needed.
 
@@ -64,9 +64,9 @@ You need to understand all the requirements of a **font stack** to do this assig
 
 There are two ways to design a page initially. One is to design it for a wide screen, a desktop monitor, and then use @media queries to adapt it to mobile. The other way is to design for mobile first, and then use @media queries to adapt it to wider screens.
 
-This CSS file takes the first approach, even though "mobile first" is the preferred method nowadays. Therefore, your @media queries must adapt the design to look good on small screens.
+This CSS file takes the first approach, even though "mobile first" is the preferred method nowadays. Therefore, your @media queries in this assignment must adapt the design to look good on small screens.
 
-The [video](https://www.youtube.com/watch?v=DYrpZRaX8RI&index=37&list=PLZFU-W6LLeecJuSQh20QUU_gCmS30sLTB) is strongly recommended.
+The [video for chapter 18](https://www.youtube.com/watch?v=DYrpZRaX8RI&index=37&list=PLZFU-W6LLeecJuSQh20QUU_gCmS30sLTB) is strongly recommended.
 
 1. There is an element you must add to the HEAD in the HTML file to make the page responsive. It doesn't do *everything* that's needed, but it plays an important part. It's in chapter 18 and in the video.
 
@@ -78,7 +78,7 @@ The [video](https://www.youtube.com/watch?v=DYrpZRaX8RI&index=37&list=PLZFU-W6LL
 
 (Yes, I made a video of my phone and then converted it to an animated GIF.)
 
-**Note:** In the CSS file, you must not *change* anything (except the two font-family declarations you already changed). You will *add* the @media query, and all adaptations will be handled there.
+**Note:** In the CSS file, you must not *change* anything (except the two font-family declarations you already changed). You will *add* the @media query, and all adaptations will be handled there. (Best practice: Add @media queries at the bottom of the CSS file.)
 
 Test your changes by making your browser window very narrow.
 
